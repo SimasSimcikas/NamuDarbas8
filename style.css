@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&family=Rubik&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #756ab6;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  height: auto;
+  width: 300px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: #adbce6;
+}
+
+h1 {
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+p {
+  padding: 10px;
+  text-align: center;
+}
+
+.catlist {
+  margin-top: 50px;
+}
+
+.list {
+  text-align: center;
+  padding: 10px;
+}
+
+.list-border {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.price {
+  text-align: center;
+  margin-top: 25px;
+  text-transform: lowercase;
+  font-size: 60px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: yellow;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+}
